@@ -1,4 +1,12 @@
 <p>in-out-child-sample works!</p>
 <div>
    <p>Counter: {{counter}}</p>
+
+   <p>Changes Log:</p>
+    <ul>
+      <li *ngFor="let log of changesLog">
+         {{log}}
+      </li>
+    </ul>
+
 </div>
