@@ -5,11 +5,12 @@ import { CompLifecycleComponent } from './comp-lifecycle/comp-lifecycle.componen
  import { ViewEncapsulationComponent } from './view-encapsulation/view-encapsulation.component';
  import { InOutChildSampleComponent } from './in-out-child-sample/in-out-child-sample.component';
  import { InOutChildSetterComponent } from './in-out-child-setter/in-out-child-setter.component';
+ import { ParentComponent } from './parent/parent.component';
 
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, TestComp1Component,CompLifecycleComponent,ViewEncapsulationComponent,InOutChildSampleComponent,InOutChildSetterComponent],
+  imports: [RouterOutlet, TestComp1Component,CompLifecycleComponent,ViewEncapsulationComponent,InOutChildSampleComponent,InOutChildSetterComponent,ParentComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

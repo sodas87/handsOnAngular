@@ -4,11 +4,7 @@ import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
 @Component({
   selector: 'app-in-out-child-sample',
   imports: [NgFor],
-  // template: ` <p>Changes Log:</p>
-  //    <ul>
-  //     <li *ngFor="let log of changesLog">{{ log }}</li>
-  //   </ul>`,
- templateUrl: './in-out-child-sample.component.html',
+  templateUrl: './in-out-child-sample.component.html',
   styleUrl: './in-out-child-sample.component.css'
 })
 export class InOutChildSampleComponent implements OnChanges {
