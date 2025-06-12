@@ -6,11 +6,12 @@ import { CompLifecycleComponent } from './comp-lifecycle/comp-lifecycle.componen
  import { InOutChildSampleComponent } from './in-out-child-sample/in-out-child-sample.component';
  import { InOutChildSetterComponent } from './in-out-child-setter/in-out-child-setter.component';
  import { ParentComponent } from './parent/parent.component';
+ import { ContentProjectionComponent } from './content-projection/content-projection.component';
 
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, TestComp1Component,CompLifecycleComponent,ViewEncapsulationComponent,InOutChildSampleComponent,InOutChildSetterComponent,ParentComponent],
+  imports: [RouterOutlet, ContentProjectionComponent, TestComp1Component,CompLifecycleComponent,ViewEncapsulationComponent,InOutChildSampleComponent,InOutChildSetterComponent,ParentComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

@@ -1,0 +1,14 @@
+div.card-footer {
+    font-style: italic;
+    color: green;
+}
+div.custom-card {
+    color:red
+}
+
+div.card-header {
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: darkred
+}
+

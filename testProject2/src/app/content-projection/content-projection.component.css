@@ -1,0 +1,11 @@
+div.card-footer {
+    font-style: italic;
+    color: green;
+}
+div.custom-card {
+    color:red
+}
+
+div.card-header {
+    color:red
+}

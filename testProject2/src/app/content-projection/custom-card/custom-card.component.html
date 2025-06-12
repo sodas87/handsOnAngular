@@ -1,0 +1,14 @@
+ <p>custom-card works!</p>
+
+    <div class="custom-card">  
+        <div class="card-header"><ng-content select="[card-header]"></ng-content></div>
+        
+        <div>
+            <ng-content></ng-content> <!-- Default slot -->
+        </div>
+        <div class="card-footer">
+            <ng-content select="[card-footer]"></ng-content>
+        </div>
+    
+    </div>
+
