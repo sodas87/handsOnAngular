@@ -8,10 +8,10 @@ import { Component, Input } from '@angular/core';
 })
 export class InOutChildSetterComponent {
   @Input()
-   get counter(): number { return this._counter; }
-   set counter(val: number) {
+   get counterS(): number { return this._counter; }
+   set counterS(val: number) {
       this._counter = val || 0;
-      if(val > 25) this._counter = val % 25;
+      if(val > 10) this._counter = val % 10;
    }
    private _counter: number = 1;
 
